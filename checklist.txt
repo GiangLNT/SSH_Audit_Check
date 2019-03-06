@@ -1,0 +1,23 @@
+show run view full | incl aaa new-model
+
+show run view full | incl aaa authentication login
+
+show run view full | incl aaa authentication enable
+
+show run view full | sec line con | incl login
+
+sh run view full | sec line tty | incl login authenticatio
+
+sh run view full | sec line | incl login authentication
+
+sh run view full | incl aaa accounting commands
+
+sh run view full | incl aaa accounting connection
+
+sh run view full | incl aaa accounting exec
+
+sh run view full | incl aaa accounting network
+
+sh run view full | incl aaa accounting system
+
+show run view full | incl username | incl privilege
